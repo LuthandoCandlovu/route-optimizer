@@ -1,208 +1,276 @@
 <div align="center">
 
-<!-- Animated Header using SVG -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Route%20Optimization%20System&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Intelligent%20Graph-Based%20Pathfinding%20Engine&descAlignY=58&descColor=a0a0ff&animation=fadeIn" width="100%"/>
-
-<!-- Typing Animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&multiline=true&width=700&height=80&lines=🚀+Four+Classic+Graph+Algorithms;🗺️+Real-Time+Traffic+Simulation;⛽+Fuel+Cost+Optimization+Engine" alt="Typing SVG" />
-</a>
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:1a1a2e,40:16213e,70:0f3460,100:533483&height=200&section=header&text=Route%20Optimization%20System&fontSize=40&fontColor=e94560&fontAlignY=55&desc=Intelligent%20Graph-Based%20Pathfinding%20%E2%80%94%20PowerShell&descAlignY=75&descColor=a8b2d8&animation=blinking&stroke=e94560&strokeWidth=2" width="100%" />
 
 <br/>
 
-<!-- Badges Row 1 -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2500&pause=1200&color=E94560&background=00000000&center=true&vCenter=true&repeat=true&width=600&lines=Dijkstra+%7C+A*+%7C+Bellman-Ford+%7C+Floyd-Warshall;Real-Time+Traffic+Simulation+%F0%9F%9A%A6;Fuel+Cost+Optimization+Engine+%E2%9A%BD;Animated+Console+UI+%F0%9F%8E%A8;7+Locations+%C2%B7+Dynamic+Edge+Weights+%C2%B7+Path+Tracing" />
+
+<br/><br/>
+
 [![PowerShell](https://img.shields.io/badge/PowerShell-7.0+-5391FE?style=for-the-badge&logo=powershell&logoColor=white)](https://github.com/PowerShell/PowerShell)
-[![License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)]()
-[![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)]()
-
-<!-- Badges Row 2 -->
-[![Dijkstra](https://img.shields.io/badge/Algorithm-Dijkstra-f59e0b?style=flat-square)]()
-[![A*](https://img.shields.io/badge/Algorithm-A*-ec4899?style=flat-square)]()
-[![Bellman-Ford](https://img.shields.io/badge/Algorithm-Bellman--Ford-3b82f6?style=flat-square)]()
-[![Floyd-Warshall](https://img.shields.io/badge/Algorithm-Floyd--Warshall-8b5cf6?style=flat-square)]()
+[![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows11&logoColor=white)]()
+[![MIT License](https://img.shields.io/badge/License-MIT-22c55e?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
+[![Graph Theory](https://img.shields.io/badge/Graph_Theory-CLRS-e94560?style=for-the-badge&logo=bookstack&logoColor=white)]()
 
 <br/>
 
-> **An interactive, console-based route optimization engine implementing four classic graph algorithms with real-time traffic simulation and fuel-cost optimization — built entirely in PowerShell.**
+[![Dijkstra](https://img.shields.io/badge/Dijkstra-O((V%2BE)logV)-f59e0b?style=flat-square&logo=databricks&logoColor=white)]()
+[![A*](https://img.shields.io/badge/A*-O(E)-ec4899?style=flat-square&logo=target&logoColor=white)]()
+[![Bellman--Ford](https://img.shields.io/badge/Bellman--Ford-O(V·E)-3b82f6?style=flat-square&logo=buffer&logoColor=white)]()
+[![Floyd--Warshall](https://img.shields.io/badge/Floyd--Warshall-O(V³)-8b5cf6?style=flat-square&logo=apachespark&logoColor=white)]()
 
 </div>
 
 ---
 
-## 🌟 Overview
+## 📖 Introduction
 
-<img align="right" width="400" src="https://github.com/user-attachments/assets/a6108e04-3082-4dcc-b89a-2ae1c65cf188" alt="Route Optimizer Screenshot"/>
-
-**Route Optimization System** is a feature-rich, terminal-driven application that brings graph algorithm theory to life. Whether you're learning computer science, prototyping logistics software, or exploring shortest-path problems, this tool gives you a hands-on, visual experience inside your PowerShell console.
-
-The system models a city road network as a **weighted undirected graph** with 7 locations and dynamically changing traffic conditions. You can find the shortest route, compare algorithms side-by-side, view all-pairs distances, or optimize purely by fuel cost — all from a sleek, animated CLI.
-
-**Perfect for:**
-- 🎓 Students learning graph algorithms
-- 🧑‍💻 Developers prototyping routing logic
-- 📊 Data enthusiasts exploring optimization
-
-<br clear="right"/>
-
----
-
-## ✨ Features
+**Route Optimization System** is a fully interactive, console-based pathfinding engine written in **PowerShell**. It models a city road network as a weighted undirected graph and exposes four classic shortest-path algorithms — letting you compare their behaviour live, with real-time traffic congestion and monetary fuel-cost optimization baked in.
 
 <div align="center">
-
-| Feature | Description |
-|:---|:---|
-| 🚀 **4 Algorithms** | Dijkstra · A\* · Bellman-Ford · Floyd-Warshall |
-| 🗺️ **Interactive Menu** | Choose start/end by name or number |
-| 🚦 **Live Traffic Simulation** | Edge weights update in real time |
-| ⛽ **Fuel Optimization** | Minimize cost, not just travel time |
-| 📊 **Side-by-Side Compare** | All algorithms for the same route |
-| 🔮 **All-Pairs Matrix** | Full V×V Floyd-Warshall output |
-| 🎨 **Animated Console UI** | Colourful, responsive, and intuitive |
-
+<img src="https://github.com/user-attachments/assets/a6108e04-3082-4dcc-b89a-2ae1c65cf188" width="540" alt="Route Optimizer Console Screenshot" style="border-radius:8px;box-shadow:0 4px 24px #0002"/>
 </div>
+
+Whether you're a student visualising graph theory, a developer prototyping logistics logic, or just curious how GPS routing software thinks — this project gives you a hands-on, algorithm-level view.
 
 ---
 
-## 🎬 Demo
+## ✨ Feature Highlights
 
-<div align="center">
+| # | Feature | Detail |
+|---|---|---|
+| 🚀 | **Four algorithms** | Dijkstra · A\* · Bellman-Ford · Floyd-Warshall |
+| 🗺️ | **Interactive menu** | Pick nodes by name **or** by number |
+| 🚦 | **Live traffic sim** | Edge weights randomise each round |
+| ⛽ | **Fuel optimizer** | Minimize cost, not just time |
+| 📊 | **Side-by-side compare** | All single-source algorithms, one run |
+| 🔮 | **All-pairs matrix** | Full V×V Floyd-Warshall table |
+| 🎨 | **Animated CLI** | Coloured banners, live redraws |
 
-<!-- Replace the src below with your actual GIF/demo recording -->
-<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW1qZGNwam91c3I5b3ZlZGl3b3JxNHd1NWhkOXF4cWZlMXkwMWtkNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/26tn33aiTi1jkl6H6/giphy.gif" width="700" alt="Demo GIF — replace with your recording" />
+---
 
-*Run the script locally to experience the live animated console.*
+## 🏗️ System Architecture
 
-</div>
+### High-Level Component Diagram
 
-### 📸 Console Preview
+```mermaid
+graph TB
+    subgraph UI["🖥️  Presentation Layer"]
+        MENU["Main Menu Loop"]
+        LOC["ShowNumberedLocations()"]
+        INPUT["GetLocationInput()"]
+        RESULT["ShowRouteResult()"]
+    end
 
-```
-╔══════════════════════════════════════════════════════╗
-║     ROUTE OPTIMIZATION SYSTEM  —  Numbered Menus    ║
-╚══════════════════════════════════════════════════════╝
+    subgraph CORE["⚙️  Core Domain"]
+        GRAPH["RouteGraph\n──────────────\n+ AdjacencyList\n+ Nodes[ ]\n+ NodeIndex\n+ AddEdge()"]
+        EDGE["Edge\n──────────────\n+ From : string\n+ To : string\n+ Distance : float\n+ TrafficFactor : float\n+ FuelPricePerKm : float"]
+    end
 
-  ========== MAIN MENU ==========
+    subgraph ALGO["🧠  Algorithm Layer"]
+        DIJ["Dijkstra\nO((V+E) log V)"]
+        ASTAR["A*\nO(E) heuristic"]
+        BF["Bellman-Ford\nO(V · E)"]
+        FW["Floyd-Warshall\nO(V³)"]
+    end
 
-  [1]  Find shortest path (choose algorithm)
-  [2]  Compare ALL algorithms — same start/end
-  [3]  Simulate real-time traffic update
-  [4]  Show current traffic & fuel prices
-  [5]  Floyd-Warshall: All-pairs shortest paths
-  [6]  Fuel optimization (minimize fuel cost)
-  [7]  Exit
+    subgraph SIM["🚦  Simulation Layer"]
+        TRAFFIC["UpdateTraffic()"]
+        PATH["GetPathFromPrev()"]
+    end
 
-  Select option: 2
+    MENU --> LOC
+    MENU --> INPUT
+    MENU --> ALGO
+    MENU --> SIM
 
-  Available Locations:
-  1) Airport          2) CentralStation   3) Downtown
-  4) Eastside         5) Northside        6) Southside
-  7) Westside
+    INPUT --> GRAPH
+    GRAPH --> EDGE
+    GRAPH --> ALGO
 
-  Start: 2    End: 5
+    DIJ --> PATH --> RESULT
+    ASTAR --> PATH
+    BF --> PATH
+    FW --> RESULT
 
-  === COMPARISON  CentralStation → Northside ===
-
-  🔹 Dijkstra      ▸  CentralStation → Downtown → Northside   Cost: 7.00
-  🔹 A*            ▸  CentralStation → Downtown → Northside   Cost: 7.00
-  🔹 Bellman-Ford  ▸  CentralStation → Downtown → Northside   Cost: 7.00
+    TRAFFIC --> GRAPH
 ```
 
 ---
 
-## 🏗️ Architecture
+### Data Flow — Single Route Query
 
-<div align="center">
+```mermaid
+sequenceDiagram
+    actor User
+    participant Menu as Main Menu
+    participant Input as GetLocationInput
+    participant Graph as RouteGraph
+    participant Algo as Algorithm
+    participant Path as GetPathFromPrev
+    participant UI as ShowRouteResult
 
+    User->>Menu: Select option (e.g. "Find Path")
+    Menu->>Input: Prompt for start & end
+    Input-->>Menu: "CentralStation", "Northside"
+    Menu->>Graph: Fetch adjacency list
+    Graph-->>Menu: Weighted edges (distance × trafficFactor)
+    Menu->>Algo: Run(graph, start, end)
+    Algo->>Algo: Relax edges / priority queue
+    Algo-->>Menu: distances[], prev[]
+    Menu->>Path: Reconstruct(prev, start, end)
+    Path-->>Menu: ["CentralStation","Downtown","Northside"]
+    Menu->>UI: Display path + total cost
+    UI-->>User: 🔹 Path: CentralStation → Downtown → Northside  Cost: 7.00
 ```
-┌─────────────────────────────────────────────────────────┐
-│                     Main Menu Loop                      │
-└──────────────────────┬──────────────────────────────────┘
-                       │
-        ┌──────────────┼──────────────┐
-        ▼              ▼              ▼
-┌──────────────┐ ┌──────────────┐ ┌──────────────────────┐
-│  Edge Class  │ │  RouteGraph  │ │      Algorithms      │
-│  • from/to   │ │  • AdjList   │ │  • Dijkstra          │
-│  • distance  │ │  • Nodes[]   │ │  • A*                │
-│  • traffic   │ │  • NodeIndex │ │  • Bellman-Ford      │
-│  • fuel cost │ │  • AddEdge() │ │  • Floyd-Warshall    │
-└──────────────┘ └──────┬───────┘ └──────────────────────┘
-                        │
-           ┌────────────┼────────────┐
-           ▼            ▼            ▼
-    ┌─────────────┐ ┌──────────┐ ┌──────────────────┐
-    │   Show UI   │ │ Traffic  │ │ Path             │
-    │  Functions  │ │  Sim.    │ │ Reconstruction   │
-    └─────────────┘ └──────────┘ └──────────────────┘
+
+---
+
+### Class Diagram
+
+```mermaid
+classDiagram
+    class Edge {
+        +string From
+        +string To
+        +float  Distance
+        +float  TrafficFactor
+        +float  FuelPricePerKm
+        +TravelCost() float
+        +FuelCost()   float
+    }
+
+    class RouteGraph {
+        -Hashtable AdjacencyList
+        -string[]  Nodes
+        -Hashtable NodeIndex
+        +AddEdge(from, to, dist, traffic, fuel)
+        +GetNeighbours(node) Edge[]
+        +GetAllNodes() string[]
+        +NodeCount() int
+    }
+
+    class Algorithms {
+        <<static>>
+        +Dijkstra(graph, start)  Result
+        +AStar(graph, start, end) Result
+        +BellmanFord(graph, start) Result
+        +FloydWarshall(graph)     Matrix
+    }
+
+    class Result {
+        +Hashtable Distances
+        +Hashtable Previous
+    }
+
+    class TrafficSimulator {
+        +UpdateTraffic(graph)
+        +RandomFactor() float
+    }
+
+    class PathHelper {
+        +GetPathFromPrev(prev, start, end) string[]
+        +FormatPath(nodes) string
+    }
+
+    RouteGraph "1" *-- "many" Edge : contains
+    Algorithms ..> RouteGraph : reads
+    Algorithms ..> Result : returns
+    TrafficSimulator ..> RouteGraph : mutates
+    PathHelper ..> Result : consumes
 ```
 
-</div>
+---
 
-### 📦 Component Breakdown
+### State Machine — Menu Lifecycle
 
-<details>
-<summary><b>🔷 Edge Class</b></summary>
+```mermaid
+stateDiagram-v2
+    [*] --> Startup
 
-Represents a road segment between two locations. Stores:
-- `From` / `To` — node identifiers
-- `Distance` — base distance in kilometres
-- `TrafficFactor` — dynamic multiplier (1.0 = free flow, 2.0 = heavy congestion)
-- `FuelPricePerKm` — monetary fuel cost used in optimization mode
+    Startup --> MainMenu : Banner drawn
 
-</details>
+    MainMenu --> SelectAlgorithm  : Option 1
+    MainMenu --> CompareAll       : Option 2
+    MainMenu --> TrafficUpdate    : Option 3
+    MainMenu --> ShowTraffic      : Option 4
+    MainMenu --> FloydWarshall    : Option 5
+    MainMenu --> FuelOptimize     : Option 6
+    MainMenu --> [*]              : Option 7 — Exit
 
-<details>
-<summary><b>🔷 RouteGraph Class</b></summary>
+    SelectAlgorithm --> PickNodes
+    CompareAll      --> PickNodes
+    FuelOptimize    --> PickNodes
 
-An undirected weighted graph with:
-- **Adjacency list** for efficient traversal
-- **Node list + index map** for Floyd-Warshall's matrix operations
-- `AddEdge()` — adds bidirectional edges automatically
+    PickNodes --> RunAlgorithm
+    RunAlgorithm --> ShowResult
 
-</details>
+    ShowResult --> MainMenu
+    TrafficUpdate --> MainMenu : Weights randomised
+    ShowTraffic   --> MainMenu
+    FloydWarshall --> MainMenu : Matrix printed
+```
 
-<details>
-<summary><b>🔷 Algorithms Class</b></summary>
+---
 
-Static methods, each returning a `(distances, previousNode)` pair:
-- All four algorithms operate on the same graph interface
-- Interchangeable — swap algorithms with zero code change
+### City Road Network
 
-</details>
+```mermaid
+graph LR
+    A(("✈️ Airport"))
+    CS(("🚉 CentralStation"))
+    DT(("🏙️ Downtown"))
+    E(("🌆 Eastside"))
+    N(("🌿 Northside"))
+    S(("🌅 Southside"))
+    W(("🌄 Westside"))
 
-<details>
-<summary><b>🔷 Helper Functions</b></summary>
+    A  -- "10 km" --- DT
+    A  -- "8 km"  --- N
+    DT -- "5 km"  --- E
+    DT -- "7 km"  --- N
+    DT -- "4 km"  --- CS
+    CS -- "9 km"  --- W
+    CS -- "6 km"  --- S
+    N  -- "6 km"  --- W
 
-| Function | Purpose |
-|---|---|
-| `ShowNumberedLocations` | Renders the numbered node menu |
-| `GetLocationInput` | Accepts name or number input |
-| `ShowRouteResult` | Formats and colours path output |
-| `UpdateTraffic` | Randomises edge weights |
-| `GetPathFromPrev` | Reconstructs path from previous-node map |
-
-</details>
+    style A  fill:#e94560,color:#fff,stroke:#e94560
+    style CS fill:#533483,color:#fff,stroke:#533483
+    style DT fill:#0f3460,color:#fff,stroke:#0f3460
+    style E  fill:#16213e,color:#fff,stroke:#16213e
+    style N  fill:#1a5276,color:#fff,stroke:#1a5276
+    style S  fill:#117a65,color:#fff,stroke:#117a65
+    style W  fill:#784212,color:#fff,stroke:#784212
+```
 
 ---
 
 ## 🧠 Algorithm Details
 
-<div align="center">
+```mermaid
+quadrantChart
+    title Algorithm Selection Guide
+    x-axis Low Complexity --> High Complexity
+    y-axis Single Source --> All Pairs
+    quadrant-1 Heavy but Complete
+    quadrant-2 All-Pairs Power
+    quadrant-3 Fast & Simple
+    quadrant-4 Flexible
+    Dijkstra: [0.20, 0.20]
+    A*: [0.15, 0.25]
+    Bellman-Ford: [0.55, 0.20]
+    Floyd-Warshall: [0.90, 0.85]
+```
 
-| Algorithm | Time Complexity | Best For | Negative Weights |
-|:---:|:---:|:---|:---:|
-| **Dijkstra** | `O((V+E) log V)` | Non-negative weights, single source | ❌ |
-| **A\*** | `O(E)` with good heuristic | Heuristic-guided, large graphs | ❌ |
-| **Bellman-Ford** | `O(V·E)` | Negative weights, cycle detection | ✅ |
-| **Floyd-Warshall** | `O(V³)` | All-pairs shortest paths | ✅ |
+| Algorithm | Complexity | Negative Weights | Negative Cycles | Best Use Case |
+|:---:|:---:|:---:|:---:|:---|
+| **Dijkstra** | `O((V+E) log V)` | ❌ | ❌ | Standard GPS routing |
+| **A\*** | `O(E)` best case | ❌ | ❌ | Heuristic-guided large graphs |
+| **Bellman-Ford** | `O(V·E)` | ✅ | Detects | Finance, arbitrage detection |
+| **Floyd-Warshall** | `O(V³)` | ✅ | ❌ | Dense graphs, all-pairs view |
 
-</div>
-
-### 💡 A* Heuristic
-
-> The current heuristic is `|nodeIndexA − nodeIndexB| × 0.5` — a lightweight stand-in. In a real geographic system, replace this with **Euclidean** or **Haversine** distance between GPS coordinates for true admissibility.
+> **A\* Heuristic:** Currently `|indexA − indexB| × 0.5`. Replace with `Haversine(coordA, coordB)` for real geographic accuracy.
 
 ---
 
@@ -211,82 +279,66 @@ Static methods, each returning a `(distances, previousNode)` pair:
 ### Prerequisites
 
 ```
-✅ Windows OS
-✅ PowerShell 5.1+ (PowerShell 7 recommended)
-✅ Git (optional)
+✅  Windows 10/11  or  Windows Server 2016+
+✅  PowerShell 5.1+ (PowerShell 7.x recommended)
+✅  Git (optional — for cloning)
 ```
 
-### ⚡ Quick Start
+### Installation
 
 ```powershell
-# 1. Clone the repository
+# 1 · Clone
 git clone https://github.com/LuthandoCandlovu/route-optimizer.git
 cd route-optimizer
 
-# 2. (If needed) Allow script execution for this session
+# 2 · Unblock execution for this session (if needed)
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
-# 3. Run the optimizer
+# 3 · Launch
 .\RouteOptimizer.ps1
 ```
 
-### 🎮 How to Use
+### Navigation Quick-Reference
 
 ```
-1. Launch the script — animated banner appears
-2. Select a menu option by typing its number
-3. Enter start/end locations by NUMBER or NAME
-4. View optimized route + cost breakdown
-5. Optionally randomize traffic and re-run!
+[1] Find shortest path      →  choose one algorithm
+[2] Compare ALL algorithms  →  Dijkstra + A* + Bellman-Ford side-by-side
+[3] Simulate traffic update →  randomise all edge weights
+[4] Show traffic & fuel     →  inspect current edge state
+[5] Floyd-Warshall matrix   →  full V×V distance table
+[6] Fuel optimization       →  minimize monetary cost
+[7] Exit
 ```
-
----
-
-## 📍 City Network Map
-
-<div align="center">
-
-```
-        [Airport]
-            |  \
-           10    8
-            |      \
-  [Northside]---7---[Downtown]---5---[Eastside]
-       |              |
-       6              4
-       |              |
-  [Westside]---9---[CentralStation]---6---[Southside]
-```
-
-*7 nodes · 8+ edges · Dynamic traffic weights*
-
-</div>
 
 ---
 
 ## 🗺️ Roadmap
 
-- [x] Dijkstra, A*, Bellman-Ford, Floyd-Warshall
-- [x] Real-time traffic simulation
-- [x] Fuel cost optimization mode
-- [x] All-pairs shortest-path matrix
-- [ ] Real GPS coordinates + Haversine heuristic
-- [ ] Windows Forms / WPF graphical map
-- [ ] Web dashboard export
-- [ ] Save/load traffic scenarios
-- [ ] CSV route export
-- [ ] Multi-modal routing (walking + transit)
+```mermaid
+gantt
+    title Route Optimizer — Development Roadmap
+    dateFormat  YYYY-MM
+    section ✅ Delivered
+    Core Graph Engine           :done, 2024-01, 2024-02
+    Dijkstra & A*               :done, 2024-02, 2024-03
+    Bellman-Ford & Floyd-Warshall :done, 2024-03, 2024-04
+    Traffic Simulation          :done, 2024-04, 2024-05
+    Fuel Optimization Mode      :done, 2024-05, 2024-06
+    section 🔧 In Progress
+    Haversine Heuristic (GPS)   :active, 2024-07, 2024-09
+    section 🔮 Planned
+    WPF / Windows Forms GUI     :2024-09, 2024-12
+    CSV Route Export            :2024-10, 2024-11
+    Save & Load Traffic Scenarios :2024-11, 2025-01
+    Multi-Modal Routing         :2025-01, 2025-04
+    Web Dashboard               :2025-03, 2025-07
+```
 
 ---
 
 ## 📄 License
 
-<div align="center">
-
-Distributed under the **MIT License**.  
-See [`LICENSE`](LICENSE) for full details.
-
-</div>
+Distributed under the **MIT License** — see [`LICENSE`](LICENSE) for details.
 
 ---
 
@@ -294,11 +346,11 @@ See [`LICENSE`](LICENSE) for full details.
 
 <div align="center">
 
-<img src="https://github.com/LuthandoCandlovu.png" width="100" style="border-radius:50%;" alt="Luthando Candlovu"/>
+<img src="https://github.com/LuthandoCandlovu.png" width="96" style="border-radius:50%" alt="Luthando Candlovu"/>
 
 **Luthando Candlovu**
 
-[![GitHub](https://img.shields.io/badge/GitHub-LuthandoCandlovu-181717?style=for-the-badge&logo=github)](https://github.com/LuthandoCandlovu)
+[![GitHub](https://img.shields.io/badge/GitHub-%40LuthandoCandlovu-181717?style=for-the-badge&logo=github)](https://github.com/LuthandoCandlovu)
 
 </div>
 
@@ -306,19 +358,22 @@ See [`LICENSE`](LICENSE) for full details.
 
 ## 🙏 Acknowledgements
 
-- 📖 **CLRS** — *Introduction to Algorithms* (Cormen, Leiserson, Rivest, Stein)
-- 💻 **PowerShell Community** — scripting inspiration and best practices
-- 🗺️ **Leaflet.js** — conceptual inspiration for the map routing interface
+- 📘 **CLRS** — *Introduction to Algorithms*, Cormen et al.
+- 💻 **PowerShell Community** — scripting patterns and best practices
+- 🗺️ **Leaflet.js** — conceptual inspiration for the map-routing interface
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:1a1a2e,50:0f3460,100:533483&height=100&section=footer&reversal=false" width="100%"/>
 
-*If this project helped you, please consider giving it a ⭐ — it means a lot!*
+<br/>
+
+*Found this useful? Drop a ⭐ — it genuinely helps!*
 
 [![Stars](https://img.shields.io/github/stars/LuthandoCandlovu/route-optimizer?style=social)](https://github.com/LuthandoCandlovu/route-optimizer)
 [![Forks](https://img.shields.io/github/forks/LuthandoCandlovu/route-optimizer?style=social)](https://github.com/LuthandoCandlovu/route-optimizer/fork)
+[![Watchers](https://img.shields.io/github/watchers/LuthandoCandlovu/route-optimizer?style=social)](https://github.com/LuthandoCandlovu/route-optimizer)
 
 </div>
